@@ -39,7 +39,7 @@ namespace GGA_Calculations
         private ProgSettings pSettings;
 
         //Program Settings file location
-        String settingsFilePath = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData) + "\\envSoft\\Moliarty";
+        String settingsFilePath = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData) + "\\envSoft\\GGA";
 
 
         //auto running in thanos
@@ -56,7 +56,6 @@ namespace GGA_Calculations
         //private bool assigningPorts = false;
 
 
-        private Random randomNumber = new Random();
         private bool forceResting = false;
 
         //Times and Timing
